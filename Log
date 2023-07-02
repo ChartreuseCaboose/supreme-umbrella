@@ -1,0 +1,8 @@
+[1]
+Created: Log, first folders, Index.html, style.css, hour.js, hour.spec.js
+hour: implemented crippled methods for damageToStrength and damageToOrg, using averages instead of a random roll. Created two tests to test Jest testing.
+[2]
+hour: implemented damagePhase.
+Restructured slightly so that damagePhase calls the damage functions, they return local variables and damagePhase changes the object's values, hopefully simplifying future bug-hunting.
+[3]
+hour: implemented firePhase partially. At this point implementing a unit template to pass in will likely be necessary, and I might as well start figuring out how to make the rng checks play nice with the tests.
